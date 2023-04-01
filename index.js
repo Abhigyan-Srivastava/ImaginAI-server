@@ -23,7 +23,7 @@ const startServer = async () => {
   try {
     connectDB(process.env.MONGODB_URL);
     app.listen(4090, () =>
-      console.log("Server has started on https://crul.onrender.com")
+      console.log("Server has started")
     );
   } catch (err) {
     console.log(err);

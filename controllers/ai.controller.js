@@ -10,7 +10,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const testRoute = (req, res) => {
-  res.send("Hello from CRUL!");
+  res.send("Hello from ImaginAI!");
 };
 
 const generateImage = async (req, res) => {

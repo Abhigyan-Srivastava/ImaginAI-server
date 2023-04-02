@@ -41,7 +41,7 @@ const createPost = async (req, res) => {
       prompt,
       photo: photoUrl.url,
     });
-    consol.log(newPost);
+    console.log(newPost);
 
     res.status(201).json({ sucess: true, data: newPost });
   } catch (error) {

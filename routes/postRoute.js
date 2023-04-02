@@ -7,7 +7,7 @@ import {
 const router = express.Router();
 
 router.route("/allposts").get(getAllPosts);
-router.route("/").post(createPost);
+router.route("/createpost").post(createPost);
 router.route("/:id").get(getSinglePost);
 
 export default router;
